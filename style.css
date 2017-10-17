@@ -451,4 +451,47 @@
 body{
     font-family: 'PT Sans', Arial, Helvetica, sans-serif;
     background: #f2f2f2;
+
+}
+.container{
+    width:1200px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+.nav-header{
+    background-color:#FFFFFF;
+    width: 100%;
+    padding: 0;
+    font-size: 0;
+}
+.nav-header li{
+    width: 20%;
+    display: inline-block;
+}
+.nav-header a{
+    font-size:14px;
+    font-weight: 700;
+    line-height: 56px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #000000;
+}
+.nav-header a.activ{
+  color: #766357;
+}
+.nav-header a:hover{
+    color: #81B3D2;
+}
+.nav-header a:active{
+    color: #B7B7B7;
+}
+.nav-header li:first-child{
+    margin-left: 6%;
+    text-align: left;
+}
+.nav-header li:last-child{
+    margin-right: 6%;
+    text-align: right;
 }
