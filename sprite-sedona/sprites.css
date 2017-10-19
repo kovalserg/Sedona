@@ -1,0 +1,232 @@
+.youtube3, .youtube2, .youtube, .t3, .t2, .t, .plus3, .plus2, .plus1, .minus3, .minus2, .minus, .logo_ha-hov, .logo_ha-act, .logo_ha, .icon-up-dir3, .icon-up-dir2, .icon-up-dir1, .icon-down-dir22, .icon-down-dir3, .icon-down-dir2, .icon-3, .icon-2, .icon-1, .filter-button2, .filter-button1, .fb-icon3, .fb-icon2, .fb-icon, .checkbox-on1, .checkbox-on-3, .checkbox-on-2, .calendar3, .calendar2, .calendar1, .★-4, .★-3, .★-2{
+	background: url(sprites.png) no-repeat;
+}
+
+.youtube3{
+	background-position: -148px -56px ;
+	width: 46px;
+	height: 48px;
+}
+
+.youtube2{
+	background-position: -83px -53px ;
+	width: 46px;
+	height: 48px;
+}
+
+.youtube{
+	background-position: -20px -54px ;
+	width: 46px;
+	height: 48px;
+}
+
+.t3{
+	background-position: -147px 0;
+	width: 46px;
+	height: 48px;
+}
+
+.t2{
+	background-position: -82px 0;
+	width: 46px;
+	height: 48px;
+}
+
+.t{
+	background-position: -20px 0;
+	width: 46px;
+	height: 48px;
+}
+
+.plus3{
+	background-position: -206px -88px ;
+	width: 11px;
+	height: 11px;
+}
+
+.plus2{
+	background-position: -209px -51px ;
+	width: 11px;
+	height: 11px;
+}
+
+.plus1{
+	background-position: -207px -22px ;
+	width: 11px;
+	height: 11px;
+}
+
+.minus3{
+	background-position: -246px -93px ;
+	width: 12px;
+	height: 3px;
+}
+
+.minus2{
+	background-position: -244px -57px ;
+	width: 12px;
+	height: 3px;
+}
+
+.minus{
+	background-position: -242px -25px ;
+	width: 12px;
+	height: 3px;
+}
+
+.logo_ha-hov{
+	background-position: 0 -238px ;
+	width: 115px;
+	height: 41px;
+}
+
+.logo_ha-act{
+	background-position: 0 -185px ;
+	width: 115px;
+	height: 41px;
+}
+
+.logo_ha{
+	background-position: 0 -288px ;
+	width: 115px;
+	height: 41px;
+}
+
+.icon-up-dir3{
+	background-position: -275px -22px ;
+	width: 11px;
+	height: 10px;
+}
+
+.icon-up-dir2{
+	background-position: -274px -55px ;
+	width: 11px;
+	height: 10px;
+}
+
+.icon-up-dir1{
+	background-position: -274px -84px ;
+	width: 11px;
+	height: 10px;
+}
+
+.icon-down-dir22{
+	background-position: -305px -54px ;
+	width: 11px;
+	height: 10px;
+}
+
+.icon-down-dir3{
+	background-position: -304px -22px ;
+	width: 11px;
+	height: 10px;
+}
+
+.icon-down-dir2{
+	background-position: -304px -83px ;
+	width: 11px;
+	height: 10px;
+}
+
+.icon-3{
+	background-position: -134px -206px ;
+	width: 74px;
+	height: 70px;
+}
+
+.icon-2{
+	background-position: -222px -203px ;
+	width: 64px;
+	height: 76px;
+}
+
+.icon-1{
+	background-position: -305px -202px ;
+	width: 75px;
+	height: 72px;
+}
+
+.filter-button2{
+	background-position: -179px -291px ;
+	width: 22px;
+	height: 24px;
+}
+
+.filter-button1{
+	background-position: -149px -291px ;
+	width: 20px;
+	height: 22px;
+}
+
+.fb-icon3{
+	background-position: -148px -114px ;
+	width: 47px;
+	height: 48px;
+}
+
+.fb-icon2{
+	background-position: -82px -114px ;
+	width: 47px;
+	height: 48px;
+}
+
+.fb-icon{
+	background-position: -21px -109px ;
+	width: 47px;
+	height: 48px;
+}
+
+.checkbox-on1{
+	background-position: -200px -116px ;
+	width: 27px;
+	height: 23px;
+}
+
+.checkbox-on-3{
+	background-position: -240px -116px ;
+	width: 27px;
+	height: 23px;
+}
+
+.checkbox-on-2{
+	background-position: -284px -120px ;
+	width: 27px;
+	height: 23px;
+}
+
+.calendar3{
+	background-position: -206px -151px ;
+	width: 21px;
+	height: 22px;
+}
+
+.calendar2{
+	background-position: -239px -150px ;
+	width: 21px;
+	height: 22px;
+}
+
+.calendar1{
+	background-position: -274px -150px ;
+	width: 21px;
+	height: 22px;
+}
+
+.★-4{
+	background-position: -344px -24px ;
+	width: 89px;
+	height: 17px;
+}
+
+.★-3{
+	background-position: -348px -53px ;
+	width: 65px;
+	height: 17px;
+}
+
+.★-2{
+	background-position: -347px -81px ;
+	width: 41px;
+	height: 17px;
+}
+
