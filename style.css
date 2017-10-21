@@ -451,12 +451,13 @@
 body{
     font-family: 'PT Sans', Arial, Helvetica, sans-serif;
     background: #f2f2f2;
-
+    text-align: center;
+    text-transform: uppercase;
 }
 .container{
     width:1200px;
     margin: 0 auto;
-    box-shadow: 0 0 15px 5px rgba(0,1,1,0.2);
+    box-shadow: 0 0 15px 0 rgba(0,1,1,0.2);
 }
 a{
     text-decoration: none;
@@ -473,25 +474,14 @@ a{
     text-align: center;
 }
 li.logo{
-  position: relative;
+    position: relative;
 }
 li.logo a{
-  position: absolute;
-  top: -33px;
-  left: 53px;
-  z-index: 1;
+    position: absolute;
+    top: -33px;
+    left: 51px;
+    z-index: 1;
 }
-/*li.logo{
-  width: 8%;
-}
-.nav-header li:first-child{
-  margin-left: 6%;
-  text-align: left;
-}
-.nav-header li:last-child{
-  margin-right: 6%;
-  text-align: right;
-}*/
 .nav-header a{
     font-size:14px;
     font-weight: 700;
@@ -501,7 +491,7 @@ li.logo a{
     color: #000000;
 }
 .nav-header a.activ{
-  color: #766357;
+    color: #766357;
 }
 .nav-header a:hover{
     color: #81B3D2;
@@ -509,15 +499,183 @@ li.logo a{
 .nav-header a:active{
     color: #B7B7B7;
 }
-.promo{
-  background-image: url('img/background photo.jpg');
+.promo-items{
+    background-image: url('img/background photo.jpg');
+    background-position: 0px -56px;
+    width: 100%;
+    height: 508px;
+}
+.promo-welcome{
+    padding-top: 76px;
+}
+.promo-desc{
+    padding-top: 8px;
+}
+.promo-sedona{
+    padding-top: 49px;
+}
+.promo-desc2{
+    padding-top: 53px;
+}
+.decor{
+    background: url('img/decor.png');
+    width: 100%;
+    height: 58px;
+    margin-top: 21px;
+}
+.promo-item{
+    background-color: #FFFFFF;
+}
+.promo-item h1{
+    width: 625px;
+    margin: 0 auto 33px;
+    font-size: 21px;
+    line-height: 26px;
+    padding-top: 60px;
+}
+.promo-item p{
+    font-size: 14px;
+    padding-bottom: 55px;
+    margin-bottom: 0;
+}
+.features-item{
+    text-align: center;
+    width: 100%;
+    min-height: 256px;
+}
+.features-item img{
+    padding: 0;
+    margin: 0;
+    width: 66.7%;
+    float: left;
+}
+.descr-img{
+    background-color: #82B3D3;
+    color:#FFFFFF;
+    width: 33.3%;
+    float: left;
+}
+.descr-img h3{
+  width: 151px;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 22px;
+  margin: 47px auto 21px;
+}
+.descr-img p{
+  width: 302px;
+  margin: 20px auto 57px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+}
+.descr-img p.number{
+  margin:0 auto;
+}
+.features{
+  font-size: 0;
   width: 100%;
-  height: 773px;
+  height: 330px;
+  background-color: #FFFFFF;
+}
+.features-info{
+  display: inline-block;
+  font-size: 14px;
+  width:33.33%;
+  position: relative;
+}
+.features-info h3{
+  font-size: 21px;
+  font-weight: 700;
+  margin: 160px auto 23px;
+}
+.features-info p{
+  width: 275px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 0 auto 83px;
+}
+.haus:before{
+  content:'';
+  display: block;
+  position: absolute;
+  width: 76px;
+  height: 75px;
+  top: 60px;
+  left: 162px;
+  background-image: url('img/sprites.png');
+  background-position: -305px -202px ;
+}
+.food:before{
+  content:'';
+  display: block;
+  position: absolute;
+  width: 76px;
+  height: 75px;
+  top: 60px;
+  left: 162px;
+  background-image: url('img/sprites.png');
+  background-position: -134px -206px ;
+}
+.souvenir:before{
+  content:'';
+  display: block;
+  position: absolute;
+  width: 76px;
+  height: 75px;
+  top: 56px;
+  left: 169px;
+  background-image: url('img/sprites.png');
+  background-position: -222px -203px ;
+}
+.grey{
+  background-color: #EEEEEE;
+  height: 255px;
+  font-size: 0;
+}
+.grey h3{
+  width: 135px;
+  margin: 47px auto 24px;
+  line-height: 21px;
+}
+.grey p{
+  margin: 22px auto 0;
+}
+.hotel-search{
+  background-color: #FFFFFF;
+  min-height: 292px
+}
+.hotel-search h2{
+  font-size: 30px;
+  font-weight: 700;
+  padding-top:52px;
+  margin: 0;
+}
+.hotel-search p{
+  width: 70%;
+  font-size: 14px;
+  line-height: 24px;
+  margin: 25px auto 78px;
+}
+.hotel-search a{
+  font-size: 21px;
+  padding: 29px 137px;
+  color: #ffffff;
+  background-color: #766357;
   text-align: center;
 }
-.promo h1{
-  width: 384px;
-  margin: 0 auto 34px;
-  font-size: 21px;
-  line-height: 26px;
+.maps{
+  background-image: url('img/map.png');
+  background-position: 0 0;
+  width: 100%;
+  height: 593px;
+}
+footer{
+  width: 100%;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 36px 0;
+}
+.clearfix{
+    clear: both;
 }
