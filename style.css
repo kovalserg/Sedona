@@ -665,6 +665,13 @@ li.logo a{
   background-color: #766357;
   text-align: center;
 }
+.hotel-search a:hover{
+  background-color: #604E43;
+}
+.hotel-search a:active{
+  color: #857871;
+  background-color: #503D33;
+}
 .maps{
   background-image: url('img/map.png');
   background-position: 0 0;
@@ -674,7 +681,87 @@ li.logo a{
 footer{
   width: 100%;
   background: rgba(255, 255, 255, 0.8);
-  padding: 36px 0;
+  padding: 16px 0;
+  margin-top: -120px;
+}
+.visitsedona{
+  float: left;
+  width: 33.33%;
+  font-size: 21px;
+  font-weight: 700;
+  margin-top: 10px;
+  vertical-align: middle;
+}
+.footer-social{
+  float: left;
+  width: 33.33%;
+  font-size: 0;
+}
+.footer-social a{
+  display: inline-block;
+  vertical-align: middle;
+  background-image: url('img/sprites.png');
+  margin: 20px 3px 22px 3px;
+}
+.twitter{
+  background-position: -20px 0;
+	width: 46px;
+	height: 48px; 
+}
+.twitter:hover{
+  background-position: -82px 0;
+}
+.twitter:active{
+  background-position: -147px 0;
+}
+.fb{
+  background-position: -21px -109px ;
+	width: 47px;
+	height: 48px;
+}
+.fb:hover{
+  background-position: -82px -114px ;
+}
+.fb:active{
+  background-position: -148px -114px ;
+}
+.youtube{
+  background-position: -20px -54px ;
+	width: 46px;
+	height: 48px;
+}
+.youtube:hover{
+  background-position: -83px -53px ;
+}
+.youtube:active{
+  background-position: -148px -56px ;
+}
+.copyright{
+  float: left;
+  width: 33.33%;
+  vertical-align: middle;
+}
+.copyright a{
+  display: inline-block;
+  margin-top: 24px;
+  margin-right: 2px;
+  width: 115px;
+  height: 41px;
+  background-image: url('img/sprites.png');
+  background-position: 0 -288px ;
+}
+.copyright p{
+  display: inline-block;
+  width: 81px;
+  font-size: 14px;
+  line-height: 20px;
+  vertical-align: middle;  
+}
+.copyright a:hover{
+  background-position: 0 -238px ;
+}
+.copyright a:active{
+  background-position: 0 -185px ;
 }
 .clearfix{
     clear: both;
