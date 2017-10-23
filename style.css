@@ -642,6 +642,17 @@ li.logo a{
 .grey p{
   margin: 22px auto 0;
 }
+p.number{
+  position: relative;
+}
+p.number::after{
+  content: '';
+  position: absolute;
+}
+p.number::before{
+  content: '';
+  position: absolute;
+}
 .hotel-search{
   background-color: #FFFFFF;
   min-height: 292px
@@ -742,8 +753,8 @@ footer{
   vertical-align: middle;
 }
 .copyright a{
-  display: inline-block;
-  margin-top: 24px;
+  display: block;
+  margin-top: 4px;
   margin-right: 2px;
   width: 115px;
   height: 41px;
@@ -752,10 +763,11 @@ footer{
 }
 .copyright p{
   display: inline-block;
-  width: 81px;
   font-size: 14px;
   line-height: 20px;
-  vertical-align: middle;  
+  vertical-align: middle;
+  margin-top: 20px;
+  padding-left: 3px;  
 }
 .copyright a:hover{
   background-position: 0 -238px ;
