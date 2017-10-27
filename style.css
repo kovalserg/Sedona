@@ -467,30 +467,31 @@ a{
     width: 100%;
     padding: 0;
     font-size: 0;
+    position: relative;
 }
 .nav-header li{
     width: 20%;
     display: inline-block;
     text-align: center;
 }
-li.logo{
-    position: relative;
-}
-li.logo a{
-    position: absolute;
-    top: -33px;
-    left: 51px;
-    z-index: 1;
-}
 .nav-header a{
     font-size:14px;
     font-weight: 700;
     line-height: 56px;
+    padding:10px;
     text-transform: uppercase;
     text-align: center;
     color: #000000;
 }
-.nav-header a.activ{
+li.logo a{
+  position: absolute;
+  padding: 0;
+  top: 0px;
+  left: 50%;
+  margin-left: -69px;
+  z-index: 1;
+}
+.nav-header a.active{
     color: #766357;
 }
 .nav-header a:hover{
@@ -499,41 +500,31 @@ li.logo a{
 .nav-header a:active{
     color: #B7B7B7;
 }
-.promo-items{
-    background-image: url('img/background photo.jpg');
+.promo{
+    background-image: url('img/promo-img.jpg');
     background-position: 0px -56px;
     width: 100%;
     height: 508px;
-}
-.promo-welcome{
-    padding-top: 76px;
-}
-.promo-desc{
-    padding-top: 8px;
-}
-.promo-sedona{
-    padding-top: 49px;
-}
-.promo-desc2{
-    padding-top: 53px;
+    position: relative;
 }
 .decor{
     background: url('img/decor.png');
     width: 100%;
     height: 58px;
-    margin-top: 21px;
+    position: absolute;
+    bottom: -2px;
 }
-.promo-item{
+.promo-title{
     background-color: #FFFFFF;
 }
-.promo-item h1{
+.promo-title h1{
     width: 625px;
     margin: 0 auto 33px;
     font-size: 21px;
     line-height: 26px;
     padding-top: 60px;
 }
-.promo-item p{
+.promo-title p{
     font-size: 14px;
     padding-bottom: 55px;
     margin-bottom: 0;
@@ -546,13 +537,13 @@ li.logo a{
 .features-item img{
     padding: 0;
     margin: 0;
-    width: 66.7%;
+    width: 66.6666666%;
     float: left;
 }
 .descr-img{
     background-color: #82B3D3;
     color:#FFFFFF;
-    width: 33.3%;
+    width: 33.3333333%;
     float: left;
 }
 .descr-img h3{
@@ -564,7 +555,7 @@ li.logo a{
 }
 .descr-img p{
   width: 302px;
-  margin: 20px auto 57px;
+  margin: 21px auto 57px;
   font-size: 14px;
   font-weight: 400;
   line-height: 22px;
@@ -697,7 +688,7 @@ footer{
 }
 .visitsedona{
   float: left;
-  width: 33.33%;
+  width: 33.3333333%;
   font-size: 21px;
   font-weight: 700;
   margin-top: 10px;
@@ -705,7 +696,7 @@ footer{
 }
 .footer-social{
   float: left;
-  width: 33.33%;
+  width: 33.3333333%;
   font-size: 0;
 }
 .footer-social a{
@@ -749,7 +740,7 @@ footer{
 }
 .copyright{
   float: left;
-  width: 33.33%;
+  width: 33.3333333%;
   vertical-align: middle;
 }
 .copyright a{
