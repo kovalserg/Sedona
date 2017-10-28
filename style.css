@@ -458,6 +458,7 @@ body{
     width:1200px;
     margin: 0 auto;
     box-shadow: 0 0 15px 0 rgba(0,1,1,0.2);
+    position: relative;
 }
 a{
     text-decoration: none;
@@ -474,22 +475,25 @@ a{
     display: inline-block;
     text-align: center;
 }
-.nav-header a{
-    font-size:14px;
-    font-weight: 700;
-    line-height: 56px;
-    padding:10px;
-    text-transform: uppercase;
-    text-align: center;
-    color: #000000;
+.nav-header li:nth-child(2){
+  margin-right: 20%;
 }
-li.logo a{
+li.logo{
   position: absolute;
   padding: 0;
   top: 0px;
   left: 50%;
-  margin-left: -69px;
+  transform: translateX(-50%);
   z-index: 1;
+}
+.nav-header a{
+  font-size:14px;
+  font-weight: 700;
+  line-height: 56px;
+  padding:10px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #000000;
 }
 .nav-header a.active{
     color: #766357;
@@ -555,7 +559,7 @@ li.logo a{
 }
 .descr-img p{
   width: 302px;
-  margin: 21px auto 57px;
+  margin: 20px auto 58px;
   font-size: 14px;
   font-weight: 400;
   line-height: 22px;
@@ -572,7 +576,7 @@ li.logo a{
 .features-info{
   display: inline-block;
   font-size: 14px;
-  width:33.33%;
+  width:33.3333333%;
   position: relative;
 }
 .features-info h3{
@@ -636,17 +640,8 @@ li.logo a{
 p.number{
   position: relative;
 }
-p.number::after{
-  content: '';
-  position: absolute;
-}
-p.number::before{
-  content: '';
-  position: absolute;
-}
 .hotel-search{
   background-color: #FFFFFF;
-  min-height: 292px
 }
 .hotel-search h2{
   font-size: 30px;
@@ -658,11 +653,12 @@ p.number::before{
   width: 70%;
   font-size: 14px;
   line-height: 24px;
-  margin: 25px auto 78px;
+  margin: 25px auto 48px;
 }
 .hotel-search a{
+  display:inline-block;
   font-size: 21px;
-  padding: 29px 137px;
+  padding: 31px 137px;
   color: #ffffff;
   background-color: #766357;
   text-align: center;
@@ -678,13 +674,14 @@ p.number::before{
   background-image: url('img/map.png');
   background-position: 0 0;
   width: 100%;
-  height: 593px;
+  height: 592px;
 }
 footer{
   width: 100%;
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.9);
   padding: 16px 0;
-  margin-top: -120px;
+  position: absolute;
+  bottom:-2px;
 }
 .visitsedona{
   float: left;
@@ -765,6 +762,16 @@ footer{
 }
 .copyright a:active{
   background-position: 0 -185px ;
+}
+.filters-group{
+  background-image: url('img/filter-background.png');
+  margin: 0;
+}
+.filter{
+  float: left;
+}
+.filter-range{
+  float: right;
 }
 .clearfix{
     clear: both;
