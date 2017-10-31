@@ -95,12 +95,44 @@
                 </p>
                 <a href="#">Поиск гостиницы в Седоне</a>
                 <form action="#">
-                    <!-- не забыть про форму с календарем-->
+                    <div class="search-form">
+                        <div class="arrival">
+                            <label for="ch-k1">Дата заезда:</label> 
+                            <span class="date-span">
+                                <input type="text" id="ch-k1" class="date-input" value="31 декабря 2018">
+                                <button class="kalendar">kalendar</button>
+                            </span>
+                        </div>
+                        <div class="departure">
+                            <label for="ch-k2">Дата выезда:</label> 
+                            <span class="date-span">
+                                <input type="text" id="ch-k2" class="date-input" value="8 января 2018">
+                                <button class="kalendar">kalendar</button>
+                            </span>
+                        </div>
+                        <div class="adults">
+                            <label for="adults">Взрослые:</label>
+                            <span class="input-wrapper">
+                                <button class="minus">-</button>
+                                <input class="people-number" id="adults" type="text" value="2">
+                                <button class="plus">+</button>
+                            </span>
+                        </div>
+                        <div class="baby">
+                            <label for="baby">Дети:</label>
+                            <span class="input-wrapper">
+                                <button class="minus">-</button>
+                                <input class="people-number" id="baby" type="text" value="0">
+                                <button class="plus">+</button>
+                            </span>
+                        </div>
+                    </div>
+                    <button class="search">Найти</button>
                 </form>
                 <div class="maps"></div>
             </div>
         </main>
-        <footer>
+        <footer class="index">
             <div class="visitsedona">
                 <p>#visitsedona</p>
             </div>
