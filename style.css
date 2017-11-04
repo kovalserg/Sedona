@@ -616,7 +616,7 @@ li.logo{
   width: 76px;
   height: 75px;
   top: 60px;
-  left: 162px;
+  left: 158px;
   background-image: url('img/sprites.png');
   background-position: -134px -206px ;
 }
@@ -848,14 +848,17 @@ footer.index{
   top: 5px;
   left: 50%;
 }
-.filter-wrap-inut{
+.filter-wrap-input{
   display: inline-block;
-  padding: 10px;
   width: 49%;
+  padding: 7px 0 0 20px;
+}
+.filter-wrap-input:first-child{
+  padding-left: 35px;
 }
 .filter-wrap input{
   font-size: 14px;
-  max-width: 25%;
+  max-width: 36%;
   color: #ffffff;
   text-align: left;
   border: none;
@@ -878,6 +881,77 @@ button.ch-btn{
 button.ch-btn:hover{
   background-color:#FFFFFF;
   color: #000;
+}
+.sorting-group{
+  background-color:#FFFFFF;
+  width: 100%;
+  padding: 0 6%;
+  border-bottom: 1px solid #E5E5E5;
+}
+.result-sort{
+  float: left;
+  padding: 10px 0px;
+}
+.result-sort h3{
+  display: inline-block;
+  font-size: 21px;
+}
+.result-sort p{
+  display: inline-block;
+  font-size: 21px;
+}
+.sorting{
+  float: left;
+  margin: 6px 9px 0px;
+}
+.sorting h4{
+  display: inline-block;
+  font-size: 12px;
+  padding-right: 32px;
+}
+.nav-sort li{
+  display: inline-block;
+  font-size: 0;
+}
+.sorting-arrows{
+  margin: 18px 0px;
+  float: right;
+}
+.sorting-arrows li{
+  display: inline-block;
+  font-size: 0;
+  padding-left: 5px;
+}
+.sorting-arrows button{
+  font-size: 10px;
+}
+.sorting button{
+  border-bottom: 1px dotted #81b3d2;
+  font-size: 11px;
+  color: #D1D1D1;
+  padding: 3px;
+  margin-right: 21px;
+  text-align: left;
+}
+.down{
+  background-image: url('img/sprites.png');
+  background-position: -305px -54px ;
+	width: 11px;
+	height: 10px; 
+}
+.up{
+  background-image: url('img/sprites.png');
+  background-position: -274px -84px ;
+	width: 11px;
+	height: 10px;
+}
+.hotels{
+  background-color: #FEFEFE;
+}
+.hotel{
+  display: inline-block;
+  width: 100%;
+  border-bottom: 1px solid #E5E5E5;
 }
 .clearfix{
     clear: both;

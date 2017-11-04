@@ -64,11 +64,11 @@
                 <div class="filter-range">
                     <h4>Стоимость в сутки (Р):</h4>
                     <div class="filter-wrap">
-                        <div class="filter-wrap-inut">
+                        <div class="filter-wrap-input">
                             <label for="min">от</label>
                             <input id="min" type="text" min="0" value="0">
                         </div>
-                        <div class="filter-wrap-inut">
+                        <div class="filter-wrap-input">
                             <label for="max">до</label>
                             <input id="max" type="text" max="5000" value="3000">
                         </div>
@@ -81,18 +81,37 @@
                 <div class="clearfix"></div>
             </div>
             <div class="sorting-group">
-                <h3>Найдено:</h3>
-                <span>3</span>
-                <div class="sorting">
-                    <h4>Сортировать:</h4>
-                    <button class="price activ">По цене</button>
-                    <button class="type">По типу</button>
-                    <button class="rating">По рейтингу</button>
+                <div class="result-sort">
+                    <h3>Найдено:</h3>
+                    <p>3</p>
                 </div>
                 <div class="sorting">
-                    <button class="down activ"></button>
-                    <button class="up"></button>   
+                    <ul class="nav-sort">
+                        <li>
+                            <h4>Сортировка:</h4>
+                        </li>
+                        <li>
+                            <button class="price active">По цене</button>
+                        </li>
+                        <li>
+                            <button class="type">По типу</button>
+                        </li>
+                        <li>
+                            <button class="rating">По рейтингу</button>
+                        </li>
+                    </ul>  
                 </div>
+                <div class="sorting-arrows">
+                    <ul>
+                        <li>
+                            <button class="up"></button>
+                        </li>
+                        <li>
+                            <button class="down active"></button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="clearfix"></div>
             </div>
             <div class="hotels">
                 <div class="hotel">
