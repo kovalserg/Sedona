@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Sedona-небольшой городок в Аризоне!">
+    <meta name="keywords" content="Sedona,отдых в Sedona,поиск отелей в Sedona,Седона,отдых в Седоне,поиск отелей в Седоне">
     <title>Sedona-небольшой городок в Аризоне!</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
@@ -93,7 +95,7 @@
                 <p>Укажите предполагаемые даты поездки,<br>
                  и мы покажем вам лучшие предложения гостиниц в Седоне
                 </p>
-                <a href="#">Поиск гостиницы в Седоне</a>
+                <a href="#" class="link">Поиск гостиницы в Седоне</a>
                 <form action="#">
                     <div class="search-form">
                         <div class="arrival">
@@ -129,7 +131,7 @@
                     </div>
                     <button class="search">Найти</button>
                 </form>
-                <div class="maps"></div>
+                <div class="maps" id="map"></div>
             </div>
         </main>
         <footer class="index">
@@ -147,6 +149,8 @@
             </div>
         </footer>
     </div>
-  <script></script>
+    <script src="script.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDSoNJUjM819CemLTEBR8EhvkBBg_fmNos&callback=initMap"
+    async defer></script>
 </body>
 </html>
