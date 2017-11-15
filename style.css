@@ -657,7 +657,7 @@ li.logo{
   margin: 0;
 }
 .hotel-search p{
-  width: 70%;
+  width: 40%;
   font-size: 14px;
   line-height: 24px;
   margin: 25px auto 48px;
@@ -678,7 +678,7 @@ li.logo{
   background-color: #503D33;
 }
 .hotel-search form{
-  font-size: 14px;
+  font-size: 0px;
   font-weight: 700;
   display: none;
   width: 47.3%;
@@ -688,25 +688,43 @@ li.logo{
   transform: translateX(-50%);
   left: 50%;
   top: 293px;
-  padding: 55px 40px;
+  padding: 55px 38px;
   z-index: 1;
+  box-shadow: 0 7px 15px 0 rgba(0,1,1,0.2);
 }
 .search-form{
   width: 100%;
-}
-.arrival{
-  margin-bottom: 29px;  
+  font-size: 14px;
 }
 form .date-wrap{
   display: inline-block;
   background-color: #f2f2f2;
-  margin-left: 30px;
+  margin-left: 16px;
+  position: relative;
+  width: 70.7%;
+}
+button.kalendar{
+  background-image: url('img/sprites.png');
+  background-position: -274px -150px ;
+	width: 21px;
+	height: 22px;
+  position: absolute;
+  top: 7px;
+  right: 7px;
+}
+button.kalendar:hover{
+  background-position: -239px -150px ;
+}
+button.kalendar:active{
+  background-position: -206px -151px ;
 }
 form.open{
   display: block;
 }
 form input{
+  width: 100%;
   border:none;
+  vertical-align: middle;
   display: inline-block;
   height: 38px;
   background-color: #f2f2f2;
@@ -714,32 +732,65 @@ form input{
   text-transform: uppercase;
   padding: 0 40px 0 14px;
   font-size: 14px;
-  font-weight: 700; 
+  font-weight: 700;
 }
-.adults{
+.date{
+  float: left;
+  width: 100%;
+  margin-bottom: 28px;
+}
+.date-min{
+  float: left;
   width: 50%;
-  display: inline-block;
-}
-.adults label{
-  display: inline-block;
-}
-.baby{
-  width: 50%;
-  display: inline-block;
-}
-.baby label{
-  display: inline-block;
 }
 form .input-wrapper{
   display: inline-block;
-  margin: 0;
+  position: relative;
+  width: 114px;
+  vertical-align: middle;
+}
+.input-wrapper input{
+  text-align: center;
+}
+button.minus{
+  background-image: url('img/sprites.png');
+  background-position: -242px -25px ;
+	width: 12px;
+  height: 3px;
+  padding: 5px;
+  position: absolute;
+  top:0;
+  left: 0;
+}
+button.minus:hover{
+  background-position: -244px -57px ;
+}
+button.minus:active{
+  background-position: -246px -93px ;
+}
+button.plus{
+  background-image: url('img/sprites.png');
+  background-position: -207px -22px ;
+	width: 11px;
+  height: 11px;
+  padding: 5px;
+  position: absolute;
+  top:0;
+  right: 0;
+}
+button.plus:hover{
+  background-position: -209px -51px ;
+}
+button.plus:active{
+  background-position: -206px -88px ;
 }
 button.search{
   background-color: #81B3D2;
   color: #FFFFFF;
   font-size: 21px;
   font-weight: 700; 
-  padding:20px 50px;
+  width: 100%;
+  line-height: 30px;
   border:none;
 }
 button.search:hover{
