@@ -688,7 +688,7 @@ li.logo{
   transform: translateX(-50%);
   left: 50%;
   top: 293px;
-  padding: 55px 38px;
+  padding: 55px 55px;
   z-index: 1;
   box-shadow: 0 7px 15px 0 rgba(0,1,1,0.2);
 }
@@ -751,6 +751,7 @@ form .input-wrapper{
 }
 .input-wrapper input{
   text-align: center;
+  padding: 0;
 }
 button.minus{
   background-image: url('img/sprites.png');
@@ -759,8 +760,8 @@ button.minus{
   height: 3px;
   padding: 5px;
   position: absolute;
-  top:0;
-  left: 0;
+  top:18px;
+  left: 20px;
 }
 button.minus:hover{
   background-position: -244px -57px ;
@@ -775,8 +776,8 @@ button.plus{
   height: 11px;
   padding: 5px;
   position: absolute;
-  top:0;
-  right: 0;
+  top:13px;
+  right: 20px;
 }
 button.plus:hover{
   background-position: -209px -51px ;
@@ -790,7 +791,7 @@ button.search{
   font-size: 21px;
   font-weight: 700; 
   width: 100%;
-  line-height: 30px;
+  height: 58px;
   border:none;
 }
 button.search:hover{
